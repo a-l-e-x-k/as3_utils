@@ -12,9 +12,9 @@ import flash.events.Event;
  * The TransitionManager class defines animation effects. It allows you to apply one of ten 
  * animation effects to movie clips. When creating custom components, you can use the 
  * TransitionManager class to apply animation effects to movie clips in your component's 
- * visual interface. The transition effects in fl.transitions.easing are defined as a set of
- * transition classes that all extend the base class fl.transitions.Transition. You apply 
- * transitions through an instance of a TransitionManager only; you do not instantiate them 
+ * visual interface. The transition effects in fl.exteernal.external.transitions.easing are defined as a set of
+ * transition classes that all extend the base class fl.exteernal.external.transitions.Transition. You apply
+ * exteernal.external.transitions through an instance of a TransitionManager only; you do not instantiate them
  * directly. The TransitionManager class implements animation events. 
  * <p>You can create a TransitionManager instance in two ways:</p>
  * <ul><li>Call the <code>TransitionManager.start()</code> method. This is the simplest and recommended way to create a TransitionManager instance.</li>
@@ -29,8 +29,8 @@ import flash.events.Event;
  * @see #start() TransitionManager.start()
  * @see #TransitionManager() TransitionManager constructor function
  * @see #startTransition() TransitionManager.startTransition()
- * @see fl.transitions.Tween
- * @see fl.transitions.easing
+ * @see fl.exteernal.external.transitions.Tween
+ * @see fl.exteernal.external.transitions.easing
  * @includeExample TransitionManager_example.as -noswf
  */
 public class TransitionManager extends EventDispatcher
@@ -127,7 +127,7 @@ public class TransitionManager extends EventDispatcher
 	}
 
     /**
-     * @private this was changed from get transitions() to get transitionsList() because hitting compile error
+     * @private this was changed from get exteernal.external.transitions() to get transitionsList() because hitting compile error
      */  	
 	public function get transitionsList():Object 
 	{
@@ -169,7 +169,7 @@ public class TransitionManager extends EventDispatcher
 
 /**
  * An object that contains the saved visual properties of the content (target movie clip) 
- * to which the transitions will be applied. 
+ * to which the exteernal.external.transitions will be applied.
  * @playerversion Flash 9
      * @playerversion AIR 1.0
      * @productversion Flash CS3
@@ -186,8 +186,8 @@ public class TransitionManager extends EventDispatcher
   * Creates a new TransitionManager instance, designates the target object, applies a transition, and starts the transition. Specifically, calling this method creates an instance of the TransitionManager class if one does not already exist, creates an instance of the specified transition class designated in the <code>transParams</code> parameter, and then starts the transition. The transition is applied to the movie clip that is designated in the <code>content</code> parameter.
   * <p>For example:</p>
   * <listing>
-  * import fl.transitions.~~;
-  * import fl.transitions.easing.~~;
+  * import fl.exteernal.external.transitions.~~;
+  * import fl.exteernal.external.transitions.easing.~~;
   *   
   * TransitionManager.start(myMovieClip, {type:Zoom, direction:Transition.IN, duration:1, easing:Bounce.easeOut});
   * </listing>
@@ -196,11 +196,11 @@ public class TransitionManager extends EventDispatcher
   * <code>transParams</code> object should contain a <code>type</code> parameter that indicates
   * the transition effect class to be applied, followed by <code>direction</code>, <code>duration</code>,
   * and <code>easing</code> parameters. In addition, you must include any parameters required by that 
-  * transition effect class. For example, the fl.transitions.Iris transition effect class requires additional
+  * transition effect class. For example, the fl.exteernal.external.transitions.Iris transition effect class requires additional
   * <code>startPoint</code> and <code>shape</code> parameters. So, in addition to the
   * <code>type</code>, <code>duration</code>, and <code>easing</code> parameters that every
   * transition requires, you would also add (to the <code>transParams</code> object) the 
-  * <code>startPoint</code> and <code>shape</code> parameters that the fl.transitions.Iris 
+  * <code>startPoint</code> and <code>shape</code> parameters that the fl.exteernal.external.transitions.Iris
   * effect requires. 
   * @return The Transition instance.
   * @playerversion Flash 9
@@ -233,8 +233,8 @@ public class TransitionManager extends EventDispatcher
   * Constructor function for creating a new TransitionManager instance. However, the <code>TransitionManager.start()</code> method is a more efficient way of creating and implementing a TransitionManager instance. If you do use the TransitionManager constructor function to create an instance, use the <code>new</code> operator then designate the transition properties and start the transition effect in a second step by calling the <code>TransitionManager.startTransition()</code> method.
   * <p>For example:</p>
   * <listing>
-  * import fl.transitions.~~;
-  * import fl.transitions.easing.~~;
+  * import fl.exteernal.external.transitions.~~;
+  * import fl.exteernal.external.transitions.easing.~~;
   *     
   * var myTransitionManager:TransitionManager = new TransitionManager(myMovieClip);
   * myTransitionManager.startTransition({type:Zoom, direction:Transition.IN, duration:1, easing:Bounce.easeOut});
@@ -261,8 +261,8 @@ public class TransitionManager extends EventDispatcher
   * is used in conjunction with the constructor function.
   * <p>For example:</p>
   * <listing>
-  * import fl.transitions.~~;
-  * import fl.transitions.easing.~~;
+  * import fl.exteernal.external.transitions.~~;
+  * import fl.exteernal.external.transitions.easing.~~;
   *       
   * var myTransitionManager:TransitionManager = new TransitionManager(myMovieClip);
   * myTransitionManager.startTransition({type:Zoom, direction:Transition.IN, duration:1, easing:Bounce.easeOut});
@@ -273,11 +273,11 @@ public class TransitionManager extends EventDispatcher
   * <code>transParams</code> object should contain a <code>type</code> parameter that indicates
   * the transition effect class to be applied, followed by direction, duration, and easing 
   * parameters. In addition, you must include any parameters required by that transition effect 
-  * class. For example, the fl.transitions.Iris transition effect class requires additional
+  * class. For example, the fl.exteernal.external.transitions.Iris transition effect class requires additional
   * <code>startPoint</code> and <code>shape</code> parameters. So, in addition to the
   * <code>type</code>, <code>duration</code>, and <code>easing</code> parameters that every
   * transition requires, you would also add (to the <code>transParams</code> object) the 
-  * <code>startPoint</code> and <code>shape</code> parameters that the fl.transitions.Iris 
+  * <code>startPoint</code> and <code>shape</code> parameters that the fl.exteernal.external.transitions.Iris
   * effect requires. 
   * @return The Transition instance.
   * @playerversion Flash 9
@@ -405,7 +405,7 @@ public class TransitionManager extends EventDispatcher
 			{
 				// Fix bug 58135
 				// Don't send allTransitionsInDone if content was
-				// hidden before the transitions actually finished.
+				// hidden before the exteernal.external.transitions actually finished.
 				this.dispatchEvent(new Event("allTransitionsInDone"));
 			}
 		}
@@ -423,7 +423,7 @@ public class TransitionManager extends EventDispatcher
 			this.restoreContentAppearance();
 
 			var wasVisible:Boolean = this._content.visible;
-			// hide the content when all out transitions are done
+			// hide the content when all out exteernal.external.transitions are done
 			if (wasVisible && 
 				(_triggerEvent == "hide" || _triggerEvent == "hideChild")) 
 			{
@@ -433,7 +433,7 @@ public class TransitionManager extends EventDispatcher
 			if (wasVisible)  {
 				// Fix bug 58135
 				// Don't send allTransitionsOutDone if content was
-				// hidden before the transitions actually finished.
+				// hidden before the exteernal.external.transitions actually finished.
 				this.dispatchEvent(new Event("allTransitionsOutDone"));
 			}
 		}

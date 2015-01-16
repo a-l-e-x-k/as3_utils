@@ -7,13 +7,13 @@ package external.bouncyShield.fl.transitions
 
 
 /**
- * The TweenEvent class represents events that are broadcast by the fl.transitions.Tween class.
+ * The TweenEvent class represents events that are broadcast by the fl.exteernal.external.transitions.Tween class.
  * @playerversion Flash 9
      * @playerversion AIR 1.0
      * @productversion Flash CS3
      * @langversion 3.0
      * @keyword Tween event    
- * @see fl.transitions.Tween 
+ * @see fl.exteernal.external.transitions.Tween
  */
 public class TweenEvent extends Event
 {

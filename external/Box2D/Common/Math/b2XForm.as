@@ -16,10 +16,10 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Common.Math{
+package Box2D.Common.Math{
 
 	
-import external.Box2D.Common.*;
+import Box2D.Common.*;
 	
 	
 /// A transform contains translation and rotation. It is used to represent

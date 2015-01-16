@@ -16,15 +16,15 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Dynamics{
+package Box2D.Dynamics{
 
 
-import external.Box2D.Dynamics.*;
-import external.Box2D.Dynamics.Joints.*;
-import external.Box2D.Dynamics.Contacts.*;
-import external.Box2D.Collision.Shapes.*;
-import external.Box2D.Common.Math.*;
-import external.Box2D.Common.*;
+import Box2D.Dynamics.*;
+import Box2D.Dynamics.Joints.*;
+import Box2D.Dynamics.Contacts.*;
+import Box2D.Collision.Shapes.*;
+import Box2D.Common.Math.*;
+import Box2D.Common.*;
 
 
 
@@ -425,7 +425,7 @@ public class b2Body
 	/// Apply a torque. This affects the angular velocity
 	/// without affecting the linear velocity of the center of mass.
 	/// This wakes up the body.
-	/// @param torque about the z-axis (out of the view), usually in N-m.
+	/// @param torque about the z-axis (out of the screen), usually in N-m.
 	public function ApplyTorque(torque:Number) : void{
 		if (IsSleeping())
 		{

@@ -10,8 +10,8 @@ package external.bouncyShield.fl.transitions
  * <p>For example, the following code uses the Fade transition for the movie clip 
  * instance <code>img1_mc</code>:</p>
  * <listing>
- * import fl.transitions.~~;
- * import fl.transitions.easing.~~;
+ * import fl.exteernal.external.transitions.~~;
+ * import fl.exteernal.external.transitions.easing.~~;
  *  
  * TransitionManager.start(img1_mc, {type:Fade, direction:Transition.IN, duration:9, easing:Strong.easeOut});
  * </listing>
@@ -20,7 +20,7 @@ package external.bouncyShield.fl.transitions
      * @productversion Flash CS3
      * @langversion 3.0
      * @keyword Fade, Transitions
- * @see fl.transitions.TransitionManager
+ * @see fl.exteernal.external.transitions.TransitionManager
  */     
 public class Fade extends Transition 
 {

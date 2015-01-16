@@ -16,7 +16,7 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Dynamics.Contacts{
+package Box2D.Dynamics.Contacts{
 	
 	
 public class b2ContactRegister

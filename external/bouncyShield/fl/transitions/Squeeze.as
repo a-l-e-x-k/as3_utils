@@ -11,8 +11,8 @@ import flash.display.MovieClip;
  * <p>For example, the following code uses the Squeeze transition for the movie clip 
  * instance <code>img1_mc</code>:</p>
  * <listing>
- * import fl.transitions.~~;
- * import fl.transitions.easing.~~;
+ * import fl.exteernal.external.transitions.~~;
+ * import fl.exteernal.external.transitions.easing.~~;
  *    
  * TransitionManager.start(img1_mc, {type:Squeeze, direction:Transition.IN, duration:2, easing:Elastic.easeOut, dimension:1});
  * </listing>
@@ -21,7 +21,7 @@ import flash.display.MovieClip;
      * @productversion Flash CS3
      * @langversion 3.0
      * @keyword Squeeze, Transitions
- * @see fl.transitions.TransitionManager
+ * @see fl.exteernal.external.transitions.TransitionManager
  */  
 public class Squeeze extends Transition 
 {

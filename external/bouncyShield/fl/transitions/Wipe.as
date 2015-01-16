@@ -14,8 +14,8 @@ import flash.geom.*;
  * <p>For example, the following code uses the Wipe transition for the movie clip 
  * instance <code>img1_mc</code>:</p>
  * <listing>
- * import fl.transitions.~~;
- * import fl.transitions.easing.~~;
+ * import fl.exteernal.external.transitions.~~;
+ * import fl.exteernal.external.transitions.easing.~~;
  *     
  * TransitionManager.start(img1_mc, {type:Wipe, direction:Transition.IN, duration:2, easing:None.easeNone, startPoint:1}); 
  * </listing>
@@ -24,7 +24,7 @@ import flash.geom.*;
      * @productversion Flash CS3
      * @langversion 3.0
      * @keyword Wipe, Transitions
- * @see fl.transitions.TransitionManager
+ * @see fl.exteernal.external.transitions.TransitionManager
  */     
 public class Wipe extends Transition 
 {

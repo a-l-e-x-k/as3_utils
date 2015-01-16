@@ -8,64 +8,64 @@ import flash.display.*;
 import flash.utils.*;
 
 /**
- * @eventType fl.transitions.TweenEvent.MOTION_CHANGE
+ * @eventType fl.exteernal.external.transitions.TweenEvent.MOTION_CHANGE
  *
  * @playerversion Flash 9
      * @playerversion AIR 1.0
      * @productversion Flash CS3
      * @langversion 3.0
      */
-[Event(name="motionChange", type="fl.transitions.TweenEvent")]
+[Event(name="motionChange", type="fl.exteernal.external.transitions.TweenEvent")]
 
 /**
- * @eventType fl.transitions.TweenEvent.MOTION_FINISH
+ * @eventType fl.exteernal.external.transitions.TweenEvent.MOTION_FINISH
  *
  * @playerversion Flash 9
      * @playerversion AIR 1.0
      * @productversion Flash CS3
      * @langversion 3.0
      */
-[Event(name="motionFinish", type="fl.transitions.TweenEvent")]
+[Event(name="motionFinish", type="fl.exteernal.external.transitions.TweenEvent")]
 
 /**
- * @eventType fl.transitions.TweenEvent.MOTION_LOOP
+ * @eventType fl.exteernal.external.transitions.TweenEvent.MOTION_LOOP
  *
  * @playerversion Flash 9
      * @playerversion AIR 1.0
      * @productversion Flash CS3
      * @langversion 3.0
      */
-[Event(name="motionLoop", type="fl.transitions.TweenEvent")]
+[Event(name="motionLoop", type="fl.exteernal.external.transitions.TweenEvent")]
 
 /**
- * @eventType fl.transitions.TweenEvent.MOTION_RESUME
+ * @eventType fl.exteernal.external.transitions.TweenEvent.MOTION_RESUME
  *
  * @playerversion Flash 9
      * @playerversion AIR 1.0
      * @productversion Flash CS3
      * @langversion 3.0
      */
-[Event(name="motionResume", type="fl.transitions.TweenEvent")]
+[Event(name="motionResume", type="fl.exteernal.external.transitions.TweenEvent")]
 
 /**
- * @eventType fl.transitions.TweenEvent.MOTION_START
+ * @eventType fl.exteernal.external.transitions.TweenEvent.MOTION_START
  *
  * @playerversion Flash 9
      * @playerversion AIR 1.0
      * @productversion Flash CS3
      * @langversion 3.0
      */
-[Event(name="motionStart", type="fl.transitions.TweenEvent")]
+[Event(name="motionStart", type="fl.exteernal.external.transitions.TweenEvent")]
 
 /**
- * @eventType fl.transitions.TweenEvent.MOTION_STOP
+ * @eventType fl.exteernal.external.transitions.TweenEvent.MOTION_STOP
  *
  * @playerversion Flash 9
      * @playerversion AIR 1.0
      * @productversion Flash CS3
      * @langversion 3.0
      */
-[Event(name="motionStop", type="fl.transitions.TweenEvent")]
+[Event(name="motionStop", type="fl.exteernal.external.transitions.TweenEvent")]
 
 /**
  * The Tween class lets you use ActionScript to move, resize, and fade movie clips 
@@ -74,7 +74,7 @@ import flash.utils.*;
  *
  * <p>The Tween class also lets you specify a variety of easing methods. "Easing" refers to 
  * gradual acceleration or deceleration during an animation, which helps your animations appear
- * more realistic. The fl.transitions.easing package provides many easing methods that contain 
+ * more realistic. The fl.exteernal.external.transitions.easing package provides many easing methods that contain
  * equations for this acceleration and deceleration, which change the easing animation
  * accordingly.</p>
  *
@@ -82,16 +82,16 @@ import flash.utils.*;
  * operator with the constructor function to create an instance of the class, and you specify an easing 
  * method as a parameter. For example:</p>
  * <listing>
- * import fl.transitions.Tween;
- * import fl.transitions.easing.~~;
+ * import fl.exteernal.external.transitions.Tween;
+ * import fl.exteernal.external.transitions.easing.~~;
  * var myTween:Tween = new Tween(myObject, "x", Elastic.easeOut, 0, 300, 3, true);
  * </listing>
  *
  * @keyword Tween, Transition
  * @includeExample examples/Tween_class.as -noswf
  * @includeExample examples/Tween_class2.as -noswf 
- * @see fl.transitions.TransitionManager
- * @see fl.transitions.easing
+ * @see fl.exteernal.external.transitions.TransitionManager
+ * @see fl.exteernal.external.transitions.easing
  * @see #Tween()
  *
  * @playerversion Flash 9

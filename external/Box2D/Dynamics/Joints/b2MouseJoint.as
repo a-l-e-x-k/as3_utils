@@ -16,12 +16,12 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Dynamics.Joints{
+package Box2D.Dynamics.Joints{
 
 
-import external.Box2D.Common.Math.*;
-import external.Box2D.Common.*;
-import external.Box2D.Dynamics.*;
+import Box2D.Common.Math.*;
+import Box2D.Common.*;
+import Box2D.Dynamics.*;
 
 
 // p = attached point, m = mouse point

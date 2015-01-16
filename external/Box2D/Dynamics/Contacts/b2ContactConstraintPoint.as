@@ -16,10 +16,10 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Dynamics.Contacts{
+package Box2D.Dynamics.Contacts{
 
 
-import external.Box2D.Common.Math.*;
+import Box2D.Common.Math.*;
 
 
 public class b2ContactConstraintPoint

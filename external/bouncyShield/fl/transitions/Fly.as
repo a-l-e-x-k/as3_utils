@@ -13,8 +13,8 @@ import flash.geom.*;
  * <p>For example, the following code uses the Fly transition for the movie clip 
  * instance <code>img1_mc</code>:</p>
  * <listing>
- * import fl.transitions.~~;
- * import fl.transitions.easing.~~;
+ * import fl.exteernal.external.transitions.~~;
+ * import fl.exteernal.external.transitions.easing.~~;
  *  
  * TransitionManager.start(img1_mc, {type:Fly, direction:Transition.IN, duration:3, easing:Elastic.easeOut, startPoint:9}); 
  * </listing>
@@ -23,7 +23,7 @@ import flash.geom.*;
      * @productversion Flash CS3
      * @langversion 3.0
      * @keyword Fly, Transitions
- * @see fl.transitions.TransitionManager
+ * @see fl.exteernal.external.transitions.TransitionManager
  */     
 public class Fly extends Transition 
 {

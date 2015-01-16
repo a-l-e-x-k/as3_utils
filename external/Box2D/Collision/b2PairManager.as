@@ -20,12 +20,12 @@
 // of overlapping proxies. It is based closely on code provided by Pierre Terdiman.
 // http://www.codercorner.com/IncrementalSAP.txt
 
-package external.Box2D.Collision{
+package Box2D.Collision{
 
 
-import external.Box2D.Common.*;
-import external.Box2D.Common.Math.*;
-import external.Box2D.Collision.*;
+import Box2D.Common.*;
+import Box2D.Common.Math.*;
+import Box2D.Collision.*;
 
 
 public class b2PairManager
@@ -74,8 +74,8 @@ public class b2PairManager
 	As proxies are created and moved, many pairs are created and destroyed. Even worse, the same
 	pair may be added and removed multiple times in a single time step of the physics engine. To reduce
 	traffic in the pair manager, we try to avoid destroying pairs in the pair manager until the
-	end of the physics step. This is done by buffering all the RemovePair model.requests. AddPair
-	model.requests are processed immediately because we need the hash table entry for quick lookup.
+	end of the physics step. This is done by buffering all the RemovePair requests. AddPair
+	requests are processed immediately because we need the hash table entry for quick lookup.
 
 	All user user callbacks are delayed until the buffered pairs are confirmed in Commit.
 	This is very important because the user callbacks may be very expensive and client logic
@@ -263,7 +263,7 @@ public class b2PairManager
 		return pair;
 	}
 
-	// Remove a pair, return the pair's model.userData.
+	// Remove a pair, return the pair's userData.
 	private function RemovePair(proxyId1:uint, proxyId2:uint):*{
 		var pair:b2Pair;
 		

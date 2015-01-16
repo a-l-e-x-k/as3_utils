@@ -13,8 +13,8 @@ import flash.display.*;
  * <p>For example, the following code uses the Rotate transition for the movie clip 
  * instance <code>img1_mc</code>:</p>
  * <listing>
- * import fl.transitions.~~;
- * import fl.transitions.easing.~~;
+ * import fl.exteernal.external.transitions.~~;
+ * import fl.exteernal.external.transitions.easing.~~;
  *    
  * TransitionManager.start(img1_mc, {type:Rotate, direction:Transition.IN, duration:3, easing:Strong.easeInOut, ccw:false, degrees:720});
  * </listing>
@@ -23,7 +23,7 @@ import flash.display.*;
      * @productversion Flash CS3
      * @langversion 3.0
      * @keyword Rotate, Transitions
- * @see fl.transitions.TransitionManager
+ * @see fl.exteernal.external.transitions.TransitionManager
  */     
 public class Rotate extends Transition 
 {

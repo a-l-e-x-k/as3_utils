@@ -16,10 +16,10 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Common.Math{
+package Box2D.Common.Math{
 
-import external.Box2D.Common.b2Settings;
-import external.Box2D.Collision.b2AABB;
+import Box2D.Common.b2Settings;
+import Box2D.Collision.b2AABB;
 
 public class b2Math{
 

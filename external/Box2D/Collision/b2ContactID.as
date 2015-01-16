@@ -16,9 +16,9 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Collision{
+package Box2D.Collision{
 	
-import external.Box2D.Collision.Features;
+import Box2D.Collision.Features;
 
 // We use contact ids to facilitate warm starting.
 public class b2ContactID

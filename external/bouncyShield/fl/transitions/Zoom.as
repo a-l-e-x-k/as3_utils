@@ -10,8 +10,8 @@ import flash.display.MovieClip;
  * <p>For example, the following code uses the Zoom transition for the movie clip 
  * instance <code>img1_mc</code>:</p>
  * <listing>
- * import fl.transitions.~~;
- * import fl.transitions.easing.~~;
+ * import fl.exteernal.external.transitions.~~;
+ * import fl.exteernal.external.transitions.easing.~~;
  *      
  * TransitionManager.start(img1_mc, {type:Zoom, direction:Transition.IN, duration:2, easing:Elastic.easeOut});
  * </listing>
@@ -20,7 +20,7 @@ import flash.display.MovieClip;
      * @productversion Flash CS3
      * @langversion 3.0
      * @keyword Zoom, Transitions
- * @see fl.transitions.TransitionManager
+ * @see fl.exteernal.external.transitions.TransitionManager
  */         
 public class Zoom extends Transition 
 {

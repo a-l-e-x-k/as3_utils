@@ -5,9 +5,9 @@
  */
 package utils
 {
-	import external.caurina.transitions.Tweener;
+    import caurina.transitions.Tweener;
 
-	import starling.display.Image;
+    import starling.display.Image;
 	import starling.textures.Texture;
 
 	public class TweenableImage extends Image

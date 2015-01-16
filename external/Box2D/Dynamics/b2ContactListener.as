@@ -16,15 +16,15 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Dynamics{
+package Box2D.Dynamics{
 
 
-import external.Box2D.Collision.*;
-import external.Box2D.Collision.Shapes.*;
-import external.Box2D.Dynamics.Contacts.*;
-import external.Box2D.Dynamics.*;
-import external.Box2D.Common.Math.*;
-import external.Box2D.Common.*;
+import Box2D.Collision.*;
+import Box2D.Collision.Shapes.*;
+import Box2D.Dynamics.Contacts.*;
+import Box2D.Dynamics.*;
+import Box2D.Common.Math.*;
+import Box2D.Common.*;
 
 
 /// Implement this class to get collision results. You can use these results for
@@ -36,7 +36,7 @@ import external.Box2D.Common.*;
 /// You should strive to make your callbacks efficient because there may be
 /// many callbacks per time step.
 /// @warning The contact separation is the last computed value.
-/// @warning You cannot create/destroy external.Box2D entities inside these callbacks.
+/// @warning You cannot create/destroy Box2D entities inside these callbacks.
 public class b2ContactListener
 {
 

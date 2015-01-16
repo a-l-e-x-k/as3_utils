@@ -21,10 +21,10 @@ package starling.animation
     /** The Transitions class contains static methods that define easing functions. 
      *  Those functions will be used by the Tween class to execute animations.
      * 
-     *  <p>Here is a visual representation of the available transitions:</p> 
-     *  <img src="http://gamua.com/img/blog/2010/sparrow-transitions.png"/>
+     *  <p>Here is a visual representation of the available exteernal.external.transitions:</p>
+     *  <img src="http://gamua.com/img/blog/2010/sparrow-exteernal.external.transitions.png"/>
      *  
-     *  <p>You can define your own transitions through the "registerTransition" function. A 
+     *  <p>You can define your own exteernal.external.transitions through the "registerTransition" function. A
      *  transition function must have the following signature, where <code>ratio</code> is 
      *  in the range 0-1:</p>
      *  

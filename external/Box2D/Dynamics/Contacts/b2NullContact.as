@@ -16,11 +16,11 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Dynamics.Contacts{
+package Box2D.Dynamics.Contacts{
 
 	
-import external.Box2D.Collision.*;
-import external.Box2D.Dynamics.*;
+import Box2D.Collision.*;
+import Box2D.Dynamics.*;
 
 
 public class b2NullContact extends b2Contact

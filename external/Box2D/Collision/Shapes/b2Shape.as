@@ -16,15 +16,15 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Collision.Shapes{
+package Box2D.Collision.Shapes{
 
 
 
 
-import external.Box2D.Common.Math.*;
-import external.Box2D.Common.*;
-import external.Box2D.Dynamics.*;
-import external.Box2D.Collision.*;
+import Box2D.Common.Math.*;
+import Box2D.Common.*;
+import Box2D.Dynamics.*;
+import Box2D.Collision.*;
 
 
 
@@ -312,7 +312,7 @@ public class b2Shape
 	
 	
 	
-	/// The various collision shape types supported by external.Box2D.
+	/// The various collision shape types supported by Box2D.
 	//enum b2ShapeType
 	//{
 		static public const e_unknownShape:int = 	-1;

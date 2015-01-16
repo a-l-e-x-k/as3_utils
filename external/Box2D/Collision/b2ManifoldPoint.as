@@ -16,10 +16,10 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Collision{
+package Box2D.Collision{
 	
-import external.Box2D.Collision.*
-import external.Box2D.Common.Math.*
+import Box2D.Collision.*
+import Box2D.Common.Math.*
 
 /// A manifold point is a contact point belonging to a contact
 /// manifold. It holds details related to the geometry and dynamics

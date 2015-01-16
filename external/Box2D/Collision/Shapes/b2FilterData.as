@@ -16,11 +16,11 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Collision.Shapes{
+package Box2D.Collision.Shapes{
 
 
 
-import external.Box2D.Common.Math.*;
+import Box2D.Common.Math.*;
 
 
 /// This holds contact filtering data.

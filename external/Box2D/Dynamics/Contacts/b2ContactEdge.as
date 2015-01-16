@@ -16,11 +16,11 @@
 * 3. This notice may not be removed or altered from any source distribution.
 */
 
-package external.Box2D.Dynamics.Contacts{
+package Box2D.Dynamics.Contacts{
 	
 	
-import external.Box2D.Dynamics.b2Body;
-import external.Box2D.Dynamics.Contacts.*;
+import Box2D.Dynamics.b2Body;
+import Box2D.Dynamics.Contacts.*;
 	
 /// A contact edge is used to connect bodies and contacts together
 /// in a contact graph where each body is a node and each contact

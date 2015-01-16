@@ -15,8 +15,8 @@ import flash.geom.*;
  * <p>For example, the following code uses the PixelDissolve transition for the movie clip 
  * instance <code>img1_mc</code>:</p>
  * <listing>
- * import fl.transitions.~~;
- * import fl.transitions.easing.~~;
+ * import fl.exteernal.external.transitions.~~;
+ * import fl.exteernal.external.transitions.easing.~~;
  *   
  * TransitionManager.start(img1_mc, {type:PixelDissolve, direction:Transition.IN, duration:2, easing:Regular.easeIn, xSections:10, ySections:10}); 
  * </listing>
@@ -25,7 +25,7 @@ import flash.geom.*;
      * @productversion Flash CS3
      * @langversion 3.0
      * @keyword PixelDissolve, Transitions
- * @see fl.transitions.TransitionManager
+ * @see fl.exteernal.external.transitions.TransitionManager
  */ 
 public class PixelDissolve extends Transition 
 {

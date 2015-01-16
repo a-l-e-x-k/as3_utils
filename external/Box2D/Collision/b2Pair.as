@@ -20,10 +20,10 @@
 // of overlapping proxies. It is based closely on code provided by Pierre Terdiman.
 // http://www.codercorner.com/IncrementalSAP.txt
 
-package external.Box2D.Collision{
+package Box2D.Collision{
 
 
-import external.Box2D.Common.*;
+import Box2D.Common.*;
 
 
 public class b2Pair
